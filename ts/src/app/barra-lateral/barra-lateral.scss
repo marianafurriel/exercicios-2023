@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nome {
+  height: 70px;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.divisor {
+  width: 220px;
+  height: 2px;
+  background: #e7e7e7;
+}
+
+ul {
+  width: 220px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin: 9px 0px 9px 20px;
+
+  color: #725c5c;
+  font-size: 15px;
+  font-family: Quicksand;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.item-ativo {
+  display: flex;
+  background-color: #fdf1eb;
+}
+
+.marcador-active {
+  width: 5px;
+  background: linear-gradient(180deg, #ffb455 0%, #ed7839 100%);
+}
