@@ -13,3 +13,22 @@ body {
 main {
   margin: 25px 43px;
 }
+.painel {
+  border: 1px solid #ececec;
+}
+
+.painel-header {
+  padding: 15px;
+  background-color: #fdf1eb;
+  color: #4e4e4e;
+}
+
+.painel-header h3 {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.painel-body {
+  padding: 0px 24px;
+}
