@@ -10,6 +10,7 @@ import { TopicoComponent } from './topico/topico.component';
 import { PrincipalComponent } from './conteudo-principal/principal.component';
 import { AsideComponent } from './aside/aside.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { RodapeComponent } from './rodape/rodape.component';
     PrincipalComponent,
     AsideComponent,
     RodapeComponent,
+    FormularioComponent,
   ],
   imports: [BrowserModule],
   providers: [],

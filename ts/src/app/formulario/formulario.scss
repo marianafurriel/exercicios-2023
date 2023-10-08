@@ -1,0 +1,48 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario p {
+  text-align: center;
+}
+
+.formulario label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  color: #ed7839;
+}
+
+.formulario input,
+textarea {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  margin: 1px 15px 10px 0px;
+  padding: 10px 23px;
+  font-family: "Quicksand";
+  font-size: 14px;
+}
+
+.formulario textarea {
+  margin-bottom: 0;
+  resize: none;
+  height: 82px;
+}
+.enviar {
+  text-align: right;
+  background-color: #eaf1f2;
+}
+
+button {
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  height: 31px;
+  width: 205px;
+  background: linear-gradient(180deg, #feb154 0%, #f1833e 100%);
+  border-top-left-radius: 4px;
+}

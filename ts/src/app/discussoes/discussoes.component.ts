@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './discussoes.component.html',
   styleUrls: ['./discussoes.scss'],
 })
-export class DiscussoesComponent {}
+export class DiscussoesComponent {
+  criarTopico() {}
+}
