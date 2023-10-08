@@ -43,21 +43,28 @@ h1 {
   display: flex;
 }
 
+.esquerda {
+  text-align: right;
+  margin-right: 10px;
+}
+
 .direita {
   display: flex;
 }
 
 .direita img {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 .notificacao {
-  font-size: 10px;
+  font-size: 12px;
   color: white;
   text-align: center;
   background-color: #f85959;
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   position: relative;
-  left: -7px;
+  left: -10px;
 }
