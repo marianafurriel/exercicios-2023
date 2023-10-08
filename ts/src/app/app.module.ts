@@ -8,6 +8,7 @@ import { ResumoComponent } from './resumo/resumo.component';
 import { DiscussoesComponent } from './discussoes/discussoes.component';
 import { TopicoComponent } from './topico/topico.component';
 import { PrincipalComponent } from './conteudo-principal/principal.component';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PrincipalComponent } from './conteudo-principal/principal.component';
     DiscussoesComponent,
     TopicoComponent,
     PrincipalComponent,
+    AsideComponent,
   ],
   imports: [BrowserModule],
   providers: [],
