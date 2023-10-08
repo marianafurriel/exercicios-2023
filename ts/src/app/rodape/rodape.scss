@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  font-family: "Quicksand";
+  font-size: 13px;
+  font-weight: 400;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.imagem-logo {
+  width: 187px;
+}
+
+.bold {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.servicos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divisor {
+  width: 18px;
+  height: 0px;
+  border-bottom: 2px solid #624d71;
+}
+
+button {
+  margin-top: 7px;
+  color: #faf8f3;
+  border: none;
+  width: 200px;
+  height: 30px;
+  background-color: #71478e;
+  border-radius: 3px;
+}
