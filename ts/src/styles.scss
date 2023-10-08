@@ -11,8 +11,9 @@ body {
 }
 
 main {
-  margin: 25px 43px;
+  padding: 25px 43px;
 }
+
 .painel {
   border: 1px solid #ececec;
 }
@@ -35,4 +36,10 @@ main {
 
 ul {
   list-style: none;
+}
+
+.principal-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
