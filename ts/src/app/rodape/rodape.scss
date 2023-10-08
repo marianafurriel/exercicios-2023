@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  align-items: flex-start;
   font-family: "Quicksand";
   font-size: 13px;
   font-weight: 400;
@@ -41,4 +42,8 @@ button {
   height: 30px;
   background-color: #71478e;
   border-radius: 3px;
+}
+
+.texto p {
+  margin-bottom: 20px;
 }
