@@ -17,8 +17,42 @@ h2 {
 }
 
 .video-overlay {
+  padding: 30px 17px 60px 30px;
   border-radius: 3px;
   width: 783px;
   height: 439px;
   background-color: hwb(21 2% 45% / 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.info-video {
+  display: flex;
+}
+
+.imagem {
+  border: 1px solid #ed7839;
+  padding: 4px;
+}
+
+.imagem,
+.imagem img {
+  border-radius: 50%;
+}
+
+.dados {
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 17px;
+}
+
+.universidade {
+  font-size: 20px;
 }
