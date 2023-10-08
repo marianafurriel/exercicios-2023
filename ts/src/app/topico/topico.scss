@@ -4,6 +4,7 @@
   border-radius: 4px;
   border: 1px #e7e7e7 solid;
   padding: 17px 24px;
+  margin-bottom: 17px;
 }
 
 .assunto {
@@ -18,7 +19,7 @@
 .autor {
   color: #5c5c5c;
   font-family: "Quicksand";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -38,10 +39,16 @@
   display: flex;
 }
 
+.mais-info,
+img,
+.likes {
+  margin-right: 15px;
+}
 .bolinha {
   width: 4px;
   height: 4px;
   background-color: #ed7839;
+  margin: 0px;
   margin-top: 3px;
   border-radius: 50%;
 }
