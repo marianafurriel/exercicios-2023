@@ -8,7 +8,7 @@
   color: #4e4e4e;
 }
 
-h3 {
+.painel-header h3 {
   font-weight: 700;
   font-family: "Roboto";
   font-size: 20px;
@@ -22,12 +22,16 @@ h3 {
   color: #5c5c5c;
 }
 
+.painel-body p {
+  margin-top: 15px;
+}
+
 #ver-mais {
   color: #ed7839;
   cursor: pointer;
   font-weight: 500;
 }
 
-#mais {
-  display: none;
-}
+// #mais {
+//   display: none;
+// }
