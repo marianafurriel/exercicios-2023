@@ -1,7 +1,7 @@
 .barra-superior {
   padding: 5px 36px;
   margin-left: 220px;
-  width: 1156px;
+  width: 1146px;
   font-family: "Roboto";
   background-color: #fdf1eb;
   color: #725c5c;
@@ -43,4 +43,23 @@ h1 {
 
 .card-user {
   display: flex;
+}
+
+.direita {
+  display: flex;
+}
+
+.direita img {
+  border-radius: 50%;
+}
+.notificacao {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-color: #f85959;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  left: -7px;
 }
