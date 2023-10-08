@@ -11,6 +11,7 @@ import { PrincipalComponent } from './conteudo-principal/principal.component';
 import { AsideComponent } from './aside/aside.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { CriarComponent } from './criar-topico/criarTopico.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FormularioComponent } from './formulario/formulario.component';
     AsideComponent,
     RodapeComponent,
     FormularioComponent,
+    CriarComponent,
   ],
   imports: [BrowserModule],
   providers: [],
