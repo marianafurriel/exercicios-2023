@@ -1,6 +1,5 @@
 .painel {
   border: 1px solid #ececec;
-  padding: 0px 24px;
 }
 
 .painel-header {
@@ -15,6 +14,10 @@
   font-size: 20px;
 }
 
+.painel-body {
+  padding: 0px 24px;
+}
+
 h4 {
   color: #ed7839;
   font-family: "Roboto";
@@ -22,7 +25,7 @@ h4 {
   margin: 15px 310px 30px;
 }
 
-.painel-body {
+.criar-topico {
   text-align: center;
 }
 
