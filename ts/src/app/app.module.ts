@@ -6,6 +6,7 @@ import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 import { BarraSuperiorComponent } from './barra-superior/barra-superior.component';
 import { ResumoComponent } from './resumo/resumo.component';
 import { DiscussoesComponent } from './discussoes/discussoes.component';
+import { TopicoComponent } from './topico/topico.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DiscussoesComponent } from './discussoes/discussoes.component';
     BarraSuperiorComponent,
     ResumoComponent,
     DiscussoesComponent,
+    TopicoComponent,
   ],
   imports: [BrowserModule],
   providers: [],
