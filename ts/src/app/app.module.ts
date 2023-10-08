@@ -7,6 +7,7 @@ import { BarraSuperiorComponent } from './barra-superior/barra-superior.componen
 import { ResumoComponent } from './resumo/resumo.component';
 import { DiscussoesComponent } from './discussoes/discussoes.component';
 import { TopicoComponent } from './topico/topico.component';
+import { PrincipalComponent } from './conteudo-principal/principal.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { TopicoComponent } from './topico/topico.component';
     ResumoComponent,
     DiscussoesComponent,
     TopicoComponent,
+    PrincipalComponent,
   ],
   imports: [BrowserModule],
   providers: [],
