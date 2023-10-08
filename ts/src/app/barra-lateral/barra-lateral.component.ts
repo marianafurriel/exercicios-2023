@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./barra-lateral.scss'],
 })
 export class BarraLateralComponent {
-  title = 'Hello world';
 }
