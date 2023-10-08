@@ -5,4 +5,17 @@ import { Component } from '@angular/core';
   templateUrl: './formulario.component.html',
   styleUrls: ['./formulario.scss'],
 })
-export class FormularioComponent {}
+export class FormularioComponent {
+  enviar() {
+    const componentEnviado = document.querySelector(
+      'app-enviado'
+    ) as HTMLElement;
+    const componentFormulario = document.querySelector(
+      'app-formulario'
+    ) as HTMLElement;
+    if (componentFormulario != undefined) {
+      componentFormulario.style.display = 'none';
+      componentEnviado.style.display = 'block';
+    }
+  }
+}
