@@ -8,3 +8,17 @@ h2 {
   line-height: 25px;
   letter-spacing: 1px;
 }
+
+.video-bg {
+  width: 783px;
+  height: 439px;
+  background-image: url("../../assets/img/principal/poster.png");
+  border-radius: 3px;
+}
+
+.video-overlay {
+  border-radius: 3px;
+  width: 783px;
+  height: 439px;
+  background-color: hwb(21 2% 45% / 0.5);
+}
