@@ -1,10 +1,15 @@
 .formulario {
   display: flex;
   flex-direction: column;
+  font-family: "Quicksand";
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .formulario p {
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 22px;
 }
 
 .formulario label {
@@ -21,8 +26,6 @@ textarea {
   border: 1px solid #cccccc;
   margin: 1px 15px 10px 0px;
   padding: 10px 23px;
-  font-family: "Quicksand";
-  font-size: 14px;
 }
 
 .formulario textarea {
@@ -36,7 +39,6 @@ textarea {
 }
 
 button {
-  font-family: "Quicksand";
   font-size: 15px;
   font-weight: 700;
   color: #fff;
