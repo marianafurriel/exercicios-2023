@@ -26,12 +26,15 @@
   margin-top: 15px;
 }
 
-#ver-mais {
+.controle-ver {
   color: #ed7839;
   cursor: pointer;
   font-weight: 500;
 }
+#mais {
+  display: none;
+}
 
-// #mais {
-//   display: none;
-// }
+#ver-menos {
+  display: none;
+}
