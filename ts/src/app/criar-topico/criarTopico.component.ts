@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./criarTopico.scss'],
 })
 export class CriarComponent {
-  criarTopico() {}
+  criarTopico() {
+    const componentCriar = document.querySelector('app-criar') as HTMLElement;
+    const componentFormulario = document.querySelector(
+      'app-formulario'
+    ) as HTMLElement;
+    if (componentFormulario != undefined) {
+      componentFormulario.style.display = 'block';
+      componentCriar.style.display = 'none';
+    }
+  }
 }
