@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./formulario.scss'],
 })
 export class FormularioComponent {
-  enviar() {
+  enviar(event: Event) {
+    event.preventDefault();
     const componentEnviado = document.querySelector(
       'app-enviado'
     ) as HTMLElement;
