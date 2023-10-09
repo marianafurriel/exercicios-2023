@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class FormularioComponent {
   enviar(event: Event) {
     event.preventDefault();
+    const componentFeedback = document.querySelector(
+      'app-feedback'
+    ) as HTMLElement;
     const componentEnviado = document.querySelector(
       'app-enviado'
     ) as HTMLElement;
@@ -17,6 +20,7 @@ export class FormularioComponent {
     if (componentFormulario != undefined) {
       componentFormulario.style.display = 'none';
       componentEnviado.style.display = 'block';
+      componentFeedback.style.display = 'block';
     }
   }
 }
