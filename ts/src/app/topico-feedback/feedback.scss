@@ -1,0 +1,21 @@
+app-topico {
+  opacity: 0.6;
+  filter: blur(2px);
+}
+
+.container {
+  position: relative;
+}
+
+.mensagem {
+  border: 3px solid red;
+  position: absolute;
+  top: 50%;
+  // z-index: 9;
+}
+
+span {
+  color: #707070;
+  width: 10px;
+  height: 10px;
+}
