@@ -14,6 +14,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { CriarComponent } from './criar-topico/criarTopico.component';
 import { EnviadoComponent } from './topico-enviado/enviado.component';
 import { FeedbackComponent } from './topico-feedback/feedback.component';
+import { ComentarioComponent } from './comentario/comentario.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FeedbackComponent } from './topico-feedback/feedback.component';
     CriarComponent,
     EnviadoComponent,
     FeedbackComponent,
+    ComentarioComponent,
   ],
   imports: [BrowserModule],
   providers: [],
