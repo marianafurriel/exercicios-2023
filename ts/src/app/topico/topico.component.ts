@@ -7,8 +7,10 @@ import { Component, Output } from '@angular/core';
 })
 export class TopicoComponent {
   @Output() index!: string;
-  clicado = false;
-  expandeTopico(){
-
+  divVisivel = false;
+  clickTopico() {
+    console.log(this.divVisivel);
+    this.divVisivel = !this.divVisivel;
+    console.log(this.divVisivel);
   }
 }

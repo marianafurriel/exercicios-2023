@@ -1,4 +1,4 @@
-<div class="topico" (click)="expandeTopico()">
+<div class="topico" (click)="clickTopico()">
   <p class="assunto">Assunto da pergunta aparece aqui</p>
   <p class="autor">Carlos Henrique Santos</p>
   <p class="conteudo">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e
@@ -13,7 +13,7 @@
     <span class="likes">1 like</span>
     <span class="respostas">1 resposta</span>
   </div>
-  <div class="comentarios" [ngClass]="{mostrar:clicado, esconder:!clicado}">
+  <div class="comentarios" *ngIf="divVisivel">
     <app-comentario index=1></app-comentario>
     <app-comentario index=2></app-comentario>
     <app-comentario index=3></app-comentario>
