@@ -10,14 +10,11 @@
       <div class="bolinha"></div>
     </div>
     <img src="../../assets/img/topico/favoritar.png" alt="">
-    <span class="likes">1 like</span>
-    <span class="respostas">1 resposta</span>
+    <span class="likes"> 4 likes</span>
+    <span class="respostas">4 respostas</span>
   </div>
   <div class="comentarios" *ngIf="divVisivel">
-    <app-comentario index=1></app-comentario>
-    <app-comentario index=2></app-comentario>
-    <app-comentario index=3></app-comentario>
-    <app-comentario index=4></app-comentario>
+    <app-comentario *ngFor="let coment of comentarios" [nome]=coment.nome [cargo]=coment.cargo></app-comentario>
   </div>
 
 </div>

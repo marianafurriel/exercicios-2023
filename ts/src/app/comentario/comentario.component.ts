@@ -6,10 +6,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./comentario.component.scss'],
 })
 export class ComentarioComponent {
-  @Input() index!: string;
-  public comentarios = [
-    { nome: 'Adriano da Silva', cargo: 'Autor' },
-    { nome: 'Carlos Henrique Santos', cargo: 'op' },
-    { nome: 'Carmila Ferreira Andrade', cargo: 'Coautor' },
-  ];
+  @Input() nome!: string;
+  @Input() cargo!: string | boolean;
+  // public comentarios = [
+  //   { nome: 'Adriano da Silva', cargo: 'Autor' },
+  //   { nome: 'Carlos Henrique Santos', cargo: false },
+  //   { nome: 'Carmila Ferreira Andrade', cargo: 'Coautor' },
+  //   { nome: 'Ana Carolina', cargo: 'Coautor' },
+  // ];
 }
