@@ -1,4 +1,4 @@
-<div class="topico" (click)="clickTopico()">
+<div class="topico" (click)="expansivel && clickTopico()" [ngClass]="{'answered-topic':expansivel}">
   <p class="assunto ops-topic-subject">Assunto da pergunta aparece aqui</p>
   <p class="autor">Carlos Henrique Santos</p>
   <p class="conteudo">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e

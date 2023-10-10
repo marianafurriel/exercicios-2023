@@ -1,4 +1,4 @@
-import { Component, Output } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-topico',
@@ -6,6 +6,7 @@ import { Component, Output } from '@angular/core';
   styleUrls: ['./topico.scss'],
 })
 export class TopicoComponent {
+  @Input() expansivel!: boolean;
   @Output() index!: string;
   @Output() public comentarios = [
     {
