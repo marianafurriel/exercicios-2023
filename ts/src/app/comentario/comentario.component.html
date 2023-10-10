@@ -1,6 +1,10 @@
 <div class="comentario" [ngClass]="{'bg':cargo}">
-  <p>{{nome}}</p>
-  <span *ngIf="cargo" class="fas fa-check-double"></span>
-  <p *ngIf="cargo">{{cargo}}</p>
+  <div class="topo">
+    <p>{{nome}}</p>
+    <div *ngIf="cargo" class="nome-cargo">
+      <p>{{cargo}}</p>
+      <span class="fas fa-check-double"></span>
+    </div>
+  </div>
   <p>{{comentario}}</p>
 </div>
