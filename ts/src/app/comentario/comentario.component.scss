@@ -1,19 +1,34 @@
-.comentario {
+.container {
   padding: 18px 23px 45px;
+  font-family: "Quicksand";
+  border: 1px solid #e7e7e7;
 }
 
 .bg {
-  background-color: #e7e7e7;
+  background-color: #f8f8f8;
 }
 
 .topo {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
+
+  font-weight: 700;
 }
 
 .nome-cargo {
+  font-size: 14px;
   width: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #ed7839;
+}
+
+.nome-autor {
+  font-size: 12px;
+}
+
+.conteudo-comentario {
+  font-size: 14px;
 }

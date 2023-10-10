@@ -8,18 +8,32 @@ import { Component, Output } from '@angular/core';
 export class TopicoComponent {
   @Output() index!: string;
   @Output() public comentarios = [
-    { nome: 'Adriano da Silva', cargo: 'Autor', comentario: 'Comentariooooo' },
+    {
+      nome: 'Adriano da Silva',
+      cargo: 'Autor',
+      comentario:
+        'Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.',
+    },
     {
       nome: 'Carlos Henrique Santos',
       cargo: false,
-      comentario: 'Comentariooooo',
+      comentario: `Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto de processo formativo situado impacto de processo formativo.
+      
+      Obrigada pela resposta, muito interessante o seu trabalho!`,
     },
     {
       nome: 'Carmila Ferreira Andrade',
       cargo: 'Coautor',
-      comentario: 'Comentariooooo',
+      comentario: `Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+
+      Situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.`,
     },
-    { nome: 'Ana Carolina', cargo: 'Coautor', comentario: 'Comentariooooo' },
+    {
+      nome: 'Ana Carolina',
+      cargo: 'Coautor',
+      comentario:
+        'Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.',
+    },
   ];
 
   divVisivel = false;

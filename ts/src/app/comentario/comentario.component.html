@@ -1,10 +1,10 @@
-<div class="comentario" [ngClass]="{'bg':cargo}">
+<div class="container" [ngClass]="{'bg':cargo}">
   <div class="topo">
-    <p>{{nome}}</p>
+    <p class="nome-autor">{{nome}}</p>
     <div *ngIf="cargo" class="nome-cargo">
       <p>{{cargo}}</p>
       <span class="fas fa-check-double"></span>
     </div>
   </div>
-  <p>{{comentario}}</p>
+  <p class="conteudo-comentario">{{comentario}}</p>
 </div>
