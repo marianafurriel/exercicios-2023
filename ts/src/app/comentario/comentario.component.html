@@ -1,2 +1,6 @@
-<p>{{nome}}</p>
-<p *ngIf="cargo">{{cargo}}</p>
+<div class="comentario" [ngClass]="{'bg':cargo}">
+  <p>{{nome}}</p>
+  <span *ngIf="cargo" class="fas fa-check-double"></span>
+  <p *ngIf="cargo">{{cargo}}</p>
+  <p>{{comentario}}</p>
+</div>

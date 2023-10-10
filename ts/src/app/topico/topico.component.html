@@ -14,7 +14,8 @@
     <span class="respostas">4 respostas</span>
   </div>
   <div class="comentarios" *ngIf="divVisivel">
-    <app-comentario *ngFor="let coment of comentarios" [nome]=coment.nome [cargo]=coment.cargo></app-comentario>
+    <app-comentario *ngFor="let coment of comentarios" [nome]=coment.nome [cargo]=coment.cargo
+      [comentario]="coment.comentario"></app-comentario>
   </div>
 
 </div>

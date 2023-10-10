@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class ComentarioComponent {
   @Input() nome!: string;
   @Input() cargo!: string | boolean;
+  @Input() comentario!: string;
   // public comentarios = [
   //   { nome: 'Adriano da Silva', cargo: 'Autor' },
   //   { nome: 'Carlos Henrique Santos', cargo: false },
