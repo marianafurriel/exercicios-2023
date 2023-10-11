@@ -1,13 +1,8 @@
-<div class="painel">
-  <div class="painel-header">
-    <h3>Discussões</h3>
-  </div>
-  <div class="painel-body">
-    <app-criar></app-criar>
-    <app-formulario></app-formulario>
-    <app-enviado></app-enviado>
-    <app-feedback></app-feedback>
-    <app-topico [expansivel]=false></app-topico>
-    <app-topico [expansivel]=true></app-topico>
-  </div>
-</div>
+<app-painel titulo="Discussões">
+  <app-criar></app-criar>
+  <app-formulario></app-formulario>
+  <app-enviado></app-enviado>
+  <app-feedback></app-feedback>
+  <app-topico [expansivel]=false></app-topico>
+  <app-topico [expansivel]=true></app-topico>
+</app-painel>
