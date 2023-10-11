@@ -1,8 +1,13 @@
 <div class="topico" (click)="expansivel && clickTopico()" [ngClass]="{'answered-topic':expansivel}">
   <p class="assunto ops-topic-subject">Assunto da pergunta aparece aqui</p>
   <p class="autor">Carlos Henrique Santos</p>
-  <p class="conteudo">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e
+  <p class="conteudo" *ngIf="!divVisivel">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
+    análise da dimensão e
     impacto de processo formativo situado impacto de processo formativo processo...</p>
+  <p class="conteudo" *ngIf="divVisivel">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
+    análise da dimensão e
+    impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da
+    análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo?</p>
   <div class="info">
     <div class="mais-info">
       <div class="bolinha"></div>
