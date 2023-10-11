@@ -16,6 +16,7 @@ import { EnviadoComponent } from './topico-enviado/enviado.component';
 import { FeedbackComponent } from './topico-feedback/feedback.component';
 import { ComentarioComponent } from './comentario/comentario.component';
 import { PainelComponent } from './painel/painel.component';
+import { DetalhesComponent } from './detalhes/detalhes.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PainelComponent } from './painel/painel.component';
     FeedbackComponent,
     ComentarioComponent,
     PainelComponent,
+    DetalhesComponent,
   ],
   imports: [BrowserModule],
   providers: [],
