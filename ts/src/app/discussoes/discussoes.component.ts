@@ -5,6 +5,4 @@ import { Component, Output } from '@angular/core';
   templateUrl: './discussoes.component.html',
   styleUrls: ['./discussoes.scss'],
 })
-export class DiscussoesComponent {
-  criarTopico() {}
-}
+export class DiscussoesComponent {}
