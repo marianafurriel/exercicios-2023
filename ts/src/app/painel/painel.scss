@@ -1,5 +1,6 @@
-.painel{
-  margin-bottom:30px;
+.painel {
+  margin-bottom: 30px;
+  border: 1px solid #ececec;
 }
 
 .painel-body {
@@ -7,6 +8,18 @@
   font-family: "Quicksand";
   font-size: 14px;
   padding: 15px;
+  padding-bottom: 0px;
   color: #5c5c5c;
 }
 
+.painel-header {
+  padding: 15px;
+  background-color: #fdf1eb;
+  color: #4e4e4e;
+}
+
+.painel-header h3 {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 20px;
+}
